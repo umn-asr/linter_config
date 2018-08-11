@@ -1,0 +1,43 @@
+AllCops:
+  TargetRubyVersion: 2.5.1
+  Exclude:
+    - '**/*.gemspec'
+    - '**/bin/**/*'
+    - '**/spec/spec_helper.rb'
+    - '**/test/test_helper.rb'
+    - '**/vendor/gems/**/*'
+    - '**/vendor/bundle/**/*'
+    - '**/bundle/**/*'
+    - '**/db/schema.rb'
+    - '**/db/migrate/**/*'
+
+Documentation:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/BlockComments:
+  Enabled: false
+
+StringLiterals:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+FrozenStringLiteralComment:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: "comma"
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: "comma"
+
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+    - 'Gemfile'

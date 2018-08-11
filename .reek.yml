@@ -1,0 +1,11 @@
+directories:
+  "db/migrate":
+    FeatureEnvy:
+      enabled: false
+    IrresponsibleModule:
+      enabled: false
+    UncommunicativeVariableName:
+      enabled: false
+exclude_paths:
+  - bundle
+  - .bundle
